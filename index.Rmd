@@ -36,8 +36,9 @@ colorize <- function(x, color) {
 I am a PhD student in the [`r colorize("Mailand lab", pal1)`](https://www.cpr.ku.dk/research/proteinsignaling/mailand/) in the Center for Protein Research at University of
 Copenhagen. I am part of the [`r colorize("Copenhagen Bioscience PhD Programme", pal1)`](https://cphbiosciencephd.org/) and the Molecular Mechanisms of Disease graduate school.
 
+I am highly interested in understanding mechanisms of cellular stress responses and exploring pathways involved in maintaining genome integrity. 
 
-I am interested in understanding mechanisms of cellular stress responses and exploring pathways involved in maintaining genome integrity. During my PhD I aim to develop targeted approaches combining cell biology and high resolution omics technologies to study DNA repair mechanisms and the consequences of DNA damages.
+During my PhD I aim to develop targeted approaches combining cell biology and high resolution omics technologies to study DNA repair mechanisms and the consequences of DNA damages. 
 
 ---
 
@@ -76,8 +77,8 @@ Copenhagen University - Novo Nordisk Center for Protein Research | Copenhagen, D
 | Immunofluorescence | R |
 | FACS & flow cytometry | Deep learning & neural network |
 | Genetic engineering | ImageJ |
-| High content & confocal microscopy | bulk RNA-seq analysis |
-| bulk RNA-seq | | 
+| High content & confocal microscopy | nf-core/RNA-seq |
+| bulk RNA-seq | nf-core/ATAC-seq | 
 | ATAC-seq | |
 | ChIP-seq | | 
-| MS proteomics | ||
+| Library preparation | ||
