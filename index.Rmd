@@ -3,19 +3,18 @@ title: "Louise Morlot"
 image: "profile_pic_lm.png"
 links:
   - label: LinkedIn
-    url: "https://www.linkedin.com/in/louise-morlot-3078791ba/"
+    url: "https://linkedin.com/in/louise-morlot-3078791ba/"
   - label: Twitter
     url: "https://twitter.com/"
   - label: GitHub
-    url: "https://github.com/louisemorlot"
-  - label: Email
+    url: "https://github.com/louisemorlot/"
+  - label: Mail
     url: "mailto:louise.morlot@cpr.ku.dk"
 output:
   postcards::trestles
 ---
 
 ```{r load_packages, message = FALSE, warning=FALSE, include=FALSE}
-library(wesanderson)
 pal3 = c("#5B1A18")
 pal1 = c("#F1BB7B")
 pal4 = c("#D67236")
