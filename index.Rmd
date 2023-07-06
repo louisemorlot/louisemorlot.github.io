@@ -3,11 +3,11 @@ title: "Louise Morlot"
 image: "profile_pic_lm.png"
 links:
   - label: LinkedIn
-    url: "https://https://www.linkedin.com/in/louise-morlot-3078791ba/"
+    url: "https://www.linkedin.com/in/louise-morlot-3078791ba/"
   - label: Twitter
     url: "https://twitter.com/"
   - label: GitHub
-    url: "https://https://github.com/louisemorlot"
+    url: "https://github.com/louisemorlot"
   - label: Email
     url: "mailto:louise.morlot@cpr.ku.dk"
 output:
