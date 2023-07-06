@@ -13,26 +13,58 @@ links:
 output:
   postcards::trestles
 ---
- 
-## Bio
 
-I am a PhD student in the Mailand lab at the Center for Protein Research at the University of
-Copenhagen. I am part of the Copenhagen Bioscience PhD Programme, a four-year PhD programme funded by the Novo Nordisk Foundation. 
+```{r load_packages, message = FALSE, warning=FALSE, include=FALSE}
+library(wesanderson)
+pal3 = c("#5B1A18")
+pal1 = c("#F1BB7B")
+pal4 = c("#D67236")
+
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+
+
+## `r colorize("Bio", pal3)`
+
+I am a PhD student in the [Mailand lab](https://www.cpr.ku.dk/research/proteinsignaling/mailand/) in the Center for Protein Research at University of
+Copenhagen. I am part of the [Copenhagen Bioscience PhD Programme](https://cphbiosciencephd.org/) and the Molecular Mechanisms of Disease graduate school.
+
+
 I am interested in understanding mechanisms of cellular stress responses and exploring pathways involved in maintaining genome integrity. During my PhD I aim to develop targeted approaches combining cell biology and high resolution omics technologies to study DNA repair mechanisms and the consequences of DNA damages.
 
-## Education
+## `r colorize("Education", pal3)`
 
-M.Sc. in Biotechnology | September 2019 - September 2021
+**PhD in Molecular Mechanisms of Disease** | November 2022 - present
+Copenhagen University - Novo Nordisk Center for Protein Research | Copenhagen, Denmark
 
-**University of Strasbourg** | Strasbourg, France
+--------------------------
+
+**M.Sc. in Biotechnology & Synthetic biology** | September 2019 - September 2021
+University of Strasbourg | Strasbourg, France
+
+--------------------------
+
+**B.Sc. in Biology & Microbiology** | September 2016 - May 2019
+The University of Lorraine | Nancy, France
+
+## `r colorize("Research projects", pal3)`
+
+`r colorize("Research engineer", pal1)` | Developing single-cell approaches in the study of malaria parasite's oocysts and mosquito midguts | [Oliver Billker laboratory](https://billkerlab.org/) | MIMS Umeå university | September 2021 - August 2022
+
+`r colorize("Master thesis", pal1)` | Optimized bulk RNA-seq methods to study malaria parasite's oocysts | Oliver Billker laboratory | MIMS Umeå university | Feb 2021 - August 2021
+
+`r colorize("Bachelor thesis", pal1)` | New antibiotic discovery using combined bacterial culture | [Hiroyasu Onaka laboratory](http://microbial-potential.bt.a.u-tokyo.ac.jp/en/) | Tokyo University | May 2019 - July 2019
 
 
-B.Sc. in Biology & Microbiology | September 2016 - May 2019
+## `r colorize("Experience", pal3)`
 
-**The University of Lorraine** | Nancy, France
-
-## Experience
-
-**Research engineer** | Developing single-cell approaches in the study of malaria parasite's oocysts | Oliver Billker laboratory | MIMS Umeå university | September 2021 - August 2022
-
-**Master thesis** | Oliver Billker laboratory | MIMS Umeå university | Feb 2021 - August 2021
+|:------------------------------------------------|:--------------------|
+| **Experimental** | **Computational** |
+|
