@@ -1,40 +1,38 @@
 ---
 title: "Louise Morlot"
-image: "louise_crop.webp"
+image: "Louise_Morlot_158b.jpg"
 links:
   - label: LinkedIn
-    url: "https://linkedin.com/"
+    url: "https://https://www.linkedin.com/in/louise-morlot-3078791ba/"
   - label: Twitter
     url: "https://twitter.com/"
   - label: GitHub
-    url: "https://github.com/"
+    url: "https://https://github.com/louisemorlot"
   - label: Email
-    url: "mailto:email@email.com"
+    url: "mailto:louise.morlot@cpr.ku.dk"
 output:
   postcards::trestles
 ---
  
 ## Bio
 
-Frank Hermosillo studies neural networks and their applications at Google 
-Brain. His research focuses on differentiable network pruning approximation and 
-decentralized gradient inversion mechanics. He frequently collaborates with 
-researchers who study machine learning, computer vision, and cognitive science.
-His work has been featured in WIRED, The Atlantic, Newsweek, and The New York 
-Times Magazine.
+I am a PhD student in the Mailand lab at the Center for Protein Research at the University of
+Copenhagen. I am part of the Copenhagen Bioscience PhD Programme, a four-year PhD programme funded by the Novo Nordisk Foundation. 
+I am interested in understanding mechanisms of cellular stress responses and exploring pathways involved in maintaining genome integrity. During my PhD I aim to develop targeted approaches combining cell biology and high resolution omics technologies to study DNA repair mechanisms and the consequences of DNA damages.
 
 ## Education
 
-**Massachusetts Institute of Technology** | Cambridge, MA
+M.Sc. in Biotechnology | September 2019 - September 2021
 
-Ph.D. in Computer Science | September 2009 - May 2014
+**University of Strasbourg** | Strasbourg, France
 
-**The University of California, Berkeley** | Berkeley, CA
 
-B.S. in Computer Science | September 2005 - May 2009
+B.Sc. in Biology & Microbiology | September 2016 - May 2019
+
+**The University of Lorraine** | Nancy, France
 
 ## Experience
 
-**Google Brain** | Principal Investigator | January 2018 - Present
+**Research engineer** | Developing single-cell approaches in the study of malaria parasite's oocysts | Oliver Billker laboratory | MIMS Umeå university | September 2021 - August 2022
 
-**Netflix** | Research Scientist | June 2014 - December 2017
+**Master thesis** | Oliver Billker laboratory | MIMS Umeå university | Feb 2021 - August 2021
