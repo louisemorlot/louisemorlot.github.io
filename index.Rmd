@@ -14,7 +14,7 @@ output:
   postcards::trestles
 ---
 
-```{r load_packages, message = FALSE, warning=FALSE, include=FALSE}
+```{r colorize, message = FALSE, warning=FALSE, include=FALSE}
 pal3 = c("#5B1A18")
 pal1 = c("#F1BB7B")
 pal4 = c("#D67236")
