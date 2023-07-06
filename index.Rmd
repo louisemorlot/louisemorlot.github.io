@@ -1,6 +1,6 @@
 ---
 title: "Louise Morlot"
-image: "Louise_Morlot_158b.jpg"
+image: "profile_pic_lm.png"
 links:
   - label: LinkedIn
     url: "https://https://www.linkedin.com/in/louise-morlot-3078791ba/"
