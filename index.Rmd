@@ -14,25 +14,11 @@ output:
   postcards::trestles
 ---
 
-```{r colorize, message = FALSE, warning=FALSE, include=FALSE}
-pal3 = c("#5B1A18")
-pal1 = c("#F1BB7B")
-pal4 = c("#D67236")
 
-colorize <- function(x, color) {
-  if (knitr::is_latex_output()) {
-    sprintf("\\textcolor{%s}{%s}", color, x)
-  } else if (knitr::is_html_output()) {
-    sprintf("<span style='color: %s;'>%s</span>", color, x)
-  } else x
-}
-```
+## <span style="color:  #5B1A18;"> Bio</span>
 
-
-## `r colorize("Bio", pal3)`
-
-I am a PhD student in the [`r colorize("Mailand lab", pal1)`](https://www.cpr.ku.dk/research/proteinsignaling/mailand/) in the Center for Protein Research at University of
-Copenhagen. I am part of the [`r colorize("Copenhagen Bioscience PhD Programme", pal1)`](https://cphbiosciencephd.org/) and the Molecular Mechanisms of Disease graduate school.
+I am a PhD student in the <a href="https://www.cpr.ku.dk/research/proteinsignaling/mailand/"><span style="color:  #F1BB7B;"> Mailand Lab</span></a> in the Center for Protein Research at University of
+Copenhagen. I am part of the <a href="https://cphbiosciencephd.org/"><span style="color:  #F1BB7B;">  Copenhagen Bioscience PhD Programme</span></a> and the Molecular Mechanisms of Disease graduate school.
 
 I am highly interested in understanding mechanisms of cellular stress responses and exploring pathways involved in maintaining genome integrity. 
 
@@ -40,37 +26,39 @@ During my PhD I aim to develop targeted approaches combining cell biology and hi
 
 ---
 
-## `r colorize("Education", pal3)`
+## <span style="color:  #5B1A18;"> Education</span>
 |  |  |
 |:------------------------------------------------|:--------------------|
-| `r colorize("PhD in Molecular Mechanisms of Disease", pal4)` | November 2022 - present |
+| **<span style="color:  #D67236;"> PhD in Molecular Mechanisms of Disease</span>** | November 2022 - present |
 Copenhagen University - Novo Nordisk Center for Protein Research | Copenhagen, Denmark |
 | **Summer course 2023** | July 2023 |
 | Statistical Analysis of Genome Scale Data | Cold Sring Harbor Laboratory |
 |<br>|   |
-| `r colorize("M.Sc. in Biotechnology & Synthetic biology", pal4)` | September 2019 - September 2021 |
+| **<span style="color:  #D67236;"> M.Sc. in Biotechnology & Synthetic Biology</span>** | September 2019 - September 2021 |
 |University of Strasbourg | Strasbourg, France |
 |<br>|   |
-| `r colorize("B.Sc. in Biology & Microbiologyy", pal4)` | September 2016 - May 2019 |
+| **<span style="color:  #D67236;"> B.Sc in Biology & Microbiology</span>** | September 2016 - May 2019 |
 | The University of Lorraine | Nancy, France ||
 
 ---
 
-## `r colorize("Research projects", pal3)`
+## <span style="color:  #5B1A18;"> Research projects</span>
 
-`r colorize("Research engineer", pal4)` | Developing single-cell approaches in the study of malaria parasite's oocysts and mosquito midguts | [`r colorize("Oliver Billker laboratory", pal1)`](https://billkerlab.org/) | MIMS Umeå university | September 2021 - August 2022
+**<span style="color:  #D67236;"> Research engineer</span>** | Developing single-cell approaches in the study of malaria parasite's oocysts and mosquito midguts | <a href="https://billkerlab.org/"><span style="color:  #F1BB7B;">  Oliver Billker laboratory</span></a> | MIMS Umeå university | September 2021 - August 2022
 
-`r colorize("Master thesis", pal4)` | Optimized bulk RNA-seq methods to study malaria parasite's oocysts | Oliver Billker laboratory | MIMS Umeå university | Feb 2021 - August 2021
+**<span style="color:  #D67236;"> Master thesis</span>** | Optimized bulk RNA-seq methods to study malaria parasite's oocysts | Oliver Billker laboratory | MIMS Umeå university | Feb 2021 - August 2021
 
-`r colorize("Bachelor thesis", pal4)` | New antibiotic discovery using combined bacterial culture | [`r colorize("Hiroyasu Onaka laboratory",pal1)`](http://microbial-potential.bt.a.u-tokyo.ac.jp/en/) | Tokyo University | May 2019 - July 2019 
+**<span style="color:  #D67236;"> Bachelor thesis</span>** | New antibiotic discovery using combined bacterial culture | <a href="http://microbial-potential.bt.a.u-tokyo.ac.jp/en/"><span style="color:  #F1BB7B;">  Hiroyasu Onaka laboratory</span></a> | Tokyo University | May 2019 - July 2019 
 
 ---
 
-## `r colorize("Skills", pal3)`
+
+
+## <span style="color:  #5B1A18;"> Skills</span>
 
 |  |  |
 |:------------------------------------------------|:--------------------|
-| `r colorize("Experimental", pal1)` | `r colorize("Computatinal", pal1)` |
+| **<span style="color:  #D67236;"> Experimental</span>** | **<span style="color:  #D67236;"> Computational</span>** |
 | Tissue Cell Culture | Python |
 | Immunofluorescence | R |
 | FACS & flow cytometry | Deep learning & neural network |
