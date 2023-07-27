@@ -21,8 +21,9 @@ I am a PhD student in the <a href="https://www.cpr.ku.dk/research/proteinsignali
 Copenhagen. I am part of the <a href="https://cphbiosciencephd.org/"><span style="color:  #F1BB7B;">  Copenhagen Bioscience PhD Programme</span></a> and the Molecular Mechanisms of Disease graduate school.
 
 I am highly interested in understanding mechanisms of cellular stress responses and exploring pathways involved in maintaining genome integrity. 
+During my PhD I aim to develop targeted approaches combining cell biology and high resolution multi omics technologies to study DNA repair mechanisms and the consequences of DNA damages on genome integrity.
 
-During my PhD I aim to develop targeted approaches combining cell biology and high resolution omics technologies to study DNA repair mechanisms and the consequences of DNA damages. 
+When I am not in the lab or behind my computer, you can find me bouldering, hiking or in museums! 
 
 ---
 
@@ -31,8 +32,8 @@ During my PhD I aim to develop targeted approaches combining cell biology and hi
 |:------------------------------------------------|:--------------------|
 | **<span style="color:  #D67236;"> PhD in Molecular Mechanisms of Disease</span>** | November 2022 - present |
 Copenhagen University - Novo Nordisk Center for Protein Research | Copenhagen, Denmark |
-| **Summer course 2023** | July 2023 |
-| Statistical Analysis of Genome Scale Data | Cold Sring Harbor Laboratory |
+| **Statistical Analysis of Genome Scale Data** | Summer 2023 |
+| Cold Spring Harbor Laboratory | Cold Sring Harbor, New York, USA |
 |<br>|   |
 | **<span style="color:  #D67236;"> M.Sc. in Biotechnology & Synthetic Biology</span>** | September 2019 - September 2021 |
 |University of Strasbourg | Strasbourg, France |
@@ -62,9 +63,8 @@ Copenhagen University - Novo Nordisk Center for Protein Research | Copenhagen, D
 | Tissue Cell Culture | Python |
 | Immunofluorescence | R |
 | FACS & flow cytometry | Deep learning & neural network |
-| Genetic engineering | ImageJ |
-| High content & confocal microscopy | nf-core/RNA-seq |
-| bulk RNA-seq | nf-core/ATAC-seq | 
-| ATAC-seq | |
-| ChIP-seq | | 
-| Library preparation | ||
+| High content & confocal microscopy | FIJI |
+| RNA isolation & cDNA synthesis | nf-core/RNA-seq |
+| Library prep (bulk RNA, ATAC & ChIP-seq) | nf-core/ATAC-seq | 
+| Genetic engineering | bash/Linux/Nextflow | 
+| PCR & Western blot | ||
